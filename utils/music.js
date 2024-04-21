@@ -44,7 +44,7 @@ class Music {
 
     // 判斷網址是否為播放清單
     isPlayList(url) {
-        if (url.indexOf('&list') > -1 && url.indexOf('music.youtube') < 0) {
+        if (url.indexOf('?list') > -1 && url.indexOf('music.youtube') < 0) {
             return true;
         }
 
