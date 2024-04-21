@@ -106,6 +106,7 @@ class Music {
 
                 // 取得影片資訊
                 const res = await play.video_basic_info(musicURL);
+                
                 musicName = res.video_details.title;
 
                 // 寫入隊列資料
